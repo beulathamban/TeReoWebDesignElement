@@ -15,7 +15,7 @@ $(document).ready(function(){
     }, 5000);
 
     setTimeout(function(){
-    $('#brown').fadeOut();// or fade, css display however you'd like.
+    $('#brown').remove();// or fade, css display however you'd like.
     }, 5000);
 
     $('.brown').text('Parauri')
@@ -36,7 +36,7 @@ $(document).ready(function(){
     }, 5000);
 
     setTimeout(function(){
-    $('#purple').fadeOut();// or fade, css display however you'd like.
+    $('#purple').remove();// or fade, css display however you'd like.
     }, 5000);
 
     $('.purple').text('Tawa');
@@ -56,7 +56,7 @@ $(document).ready(function(){
     }, 5000);
 
     setTimeout(function(){
-    $('#orange').fadeOut();// or fade, css display however you'd like.
+    $('#orange').remove();// or fade, css display however you'd like.
     }, 5000);
 
     $('.orange').text('Karaka');
@@ -76,7 +76,7 @@ $(document).ready(function(){
     }, 5000);
 
     setTimeout(function(){
-    $('#black').fadeOut();// or fade, css display however you'd like.
+    $('#black').remove();// or fade, css display however you'd like.
     }, 5000);
 
     $('.black').text('Mangu');
@@ -96,7 +96,7 @@ $(document).ready(function(){
     }, 5000);
 
     setTimeout(function(){
-    $('#gold').fadeOut();// or fade, css display however you'd like.
+    $('#gold').remove();// or fade, css display however you'd like.
     }, 5000);
 
     $('.gold').text('kōura');
@@ -116,7 +116,7 @@ $(document).ready(function(){
     }, 5000);
 
     setTimeout(function(){
-    $('#gray').fadeOut();// or fade, css display however you'd like.
+    $('#gray').remove();// or fade, css display however you'd like.
     }, 5000);
 
     $('.gray').text('kiwikiwi');
