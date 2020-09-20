@@ -28,7 +28,7 @@ $(document).ready(function(){
     $('body')
     .css('background','purple')
 
-    .append('<h1 id="purple" class="display-1 mt-5 text-light text-center">Tawa</h1>');
+    .append('<h1 id="purple" class="display-1 mt-5 text-light text-center">Waiporoporo</h1>');
 
     $('#everything').hide();
     setTimeout(function(){
@@ -39,7 +39,7 @@ $(document).ready(function(){
     $('#purple').remove();// or fade, css display however you'd like.
     }, 5000);
 
-    $('.purple').text('Tawa');
+    $('.purple').text('Waiporoporo');
   });
 
   // Orange
